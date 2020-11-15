@@ -7,23 +7,26 @@
 
     <title>Hello!</title>
 
-    <!-- import the webpage's stylesheet -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-
-    <!-- import the webpage's javascript file -->
-    <script src="script.js" defer></script>
+    
+    <script src="script.js"></script>
   </head>
   <body>
-    <h1>Hi there!</h1>
+    <h1 class="hey-you">Hey You!</h1>
+    <h3 class="question">Would you like to see a drawing of a hedgehog?</h3>
+    
+    <div class="center-div">
+      <a href="page2.html" onmouseover="happyImage()" onmouseleave="neutralImage()">
+        Yes of course!
+      </a>
 
-    <p>
-      I'm your cool new webpage. Made with
-      <a href="https://glitch.com">Glitch</a>!
-    </p>
+      <img src="https://cdn.glitch.com/7d6baa11-d27d-47e9-b9f0-64e1c5e3882c%2Fmeh-face.png?v=1605476211822" width="200px" id="face">
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" onmouseover="angryImage()" onmouseleave="neutralImage()">
+        No I am dumb.
+      </a>
+    </div>
   </body>
 </html>
