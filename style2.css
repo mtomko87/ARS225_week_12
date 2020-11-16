@@ -3,7 +3,7 @@ body {
 }
 
 .cleared {
-  clear: left;
+  clear: both;
 }
 
 .hedgehog {
@@ -18,6 +18,12 @@ body {
   font-size: 60px;
   margin: 0px 40px 20px 20px;
   float: left;
+}
+
+.info-box {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .info {
